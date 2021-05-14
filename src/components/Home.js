@@ -1,8 +1,14 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { homeScripts, unmountHomeScripts } from "./home-scripts";
+import projectData from "./project-data";
+import ProjectTile from "./ProjectTile";
 
 const Home = () => {
+  const projectsJsx = projectData.map((project) => {
+    return <ProjectTile key={project.id} project={project} />;
+  });
+
   useEffect(() => {
     homeScripts();
 
@@ -224,7 +230,7 @@ const Home = () => {
             Projects
           </h1>
 
-          <div id="project-grid"></div>
+          <div id="project-grid">{projectsJsx}</div>
 
           <Link to="/projects" className="view-all-projects">
             View All
