@@ -74,11 +74,11 @@ table {
 }
 
 .bg-static-index {
-  background-image: url("/assets/bg-static.png");
+  background-image: url("../../images/bg-static.png");
 }
 
 .bg-projects {
-  background-image: url("/assets/bg-proj.png");
+  background-image: url("../../images/bg-proj.png");
 }
 
 .text {
@@ -300,59 +300,59 @@ table {
 }
 
 #css-tile {
-  background-image: url("/assets/css.png");
+  background-image: url("../../images/css.png");
 }
 
 #scss-tile {
-  background-image: url("/assets/scss.png");
+  background-image: url("../../images/scss.png");
 }
 
 #bootstrap-tile {
-  background-image: url("/assets/bootstrap.png");
+  background-image: url("../../images/bootstrap.png");
 }
 
 #js-tile {
-  background-image: url("/assets/js.png");
+  background-image: url("../../images/js.png");
 }
 
 #ruby-tile {
-  background-image: url("/assets/ruby.png");
+  background-image: url("../../images/ruby.png");
 }
 
 #rails-tile {
-  background-image: url("/assets/rails.png");
+  background-image: url("../../images/rails.png");
 }
 
 #react-tile {
-  background-image: url("/assets/react.png");
+  background-image: url("../../images/react.png");
 }
 
 #jest-tile {
-  background-image: url("/assets/jest.png");
+  background-image: url("../../images/jest.png");
 }
 
 #git-tile {
-  background-image: url("/assets/git.png");
+  background-image: url("../../images/git.png");
 }
 
 #github-tile {
-  background-image: url("/assets/github.png");
+  background-image: url("../../images/github.png");
 }
 
 #heroku-tile {
-  background-image: url("/assets/heroku.png");
+  background-image: url("../../images/heroku.png");
 }
 
 #webpack-tile {
-  background-image: url("/assets/webpack.png");
+  background-image: url("../../images/webpack.png");
 }
 
 #npm-tile {
-  background-image: url("/assets/npm.png");
+  background-image: url("../../images/npm.png");
 }
 
 #yarn-tile {
-  background-image: url("/assets/yarn.png");
+  background-image: url("../../images/yarn.png");
 }
 
 #projects-container {
