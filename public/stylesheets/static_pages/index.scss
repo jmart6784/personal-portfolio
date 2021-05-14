@@ -23,11 +23,11 @@
 }
 
 .bg-static-index {
-  background-image: url("/assets/bg-static.png");
+  background-image: url("../../images/bg-static.png");
 }
 
 .bg-projects {
-  background-image: url("/assets/bg-proj.png");
+  background-image: url("../../images/bg-proj.png");
 }
 
 // Flip text styling
@@ -148,7 +148,7 @@
   width: 120px;
   transform-style: preserve-3d;
   perspective: 600px;
-  transition: .5s;
+  transition: 0.5s;
   &:hover .card-front {
     transform: rotateX(-180deg);
   }
@@ -180,7 +180,7 @@
   left: 0;
   backface-visibility: hidden;
   transform: rotateX(180deg);
-  transition: .5s;
+  transition: 0.5s;
   color: #ffffff;
   text-align: center;
   font-size: 17px;
@@ -195,7 +195,7 @@
 }
 
 #html-tile {
-  background-image: url("/assets/html.png");
+  background-image: url("../../images/html.png");
 }
 
 #css-tile {
@@ -414,7 +414,6 @@
     grid-template-columns: 1fr;
   }
 }
-
 
 @media only screen and (max-width: 768px) {
   // Flip text

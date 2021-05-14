@@ -230,8 +230,8 @@ table {
           transform-style: preserve-3d;
   -webkit-perspective: 600px;
           perspective: 600px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .card-flip:hover .card-front {
@@ -280,8 +280,8 @@ table {
           backface-visibility: hidden;
   -webkit-transform: rotateX(180deg);
           transform: rotateX(180deg);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   color: #ffffff;
   text-align: center;
   font-size: 17px;
@@ -296,7 +296,7 @@ table {
 }
 
 #html-tile {
-  background-image: url("/assets/html.png");
+  background-image: url("../../images/html.png");
 }
 
 #css-tile {
