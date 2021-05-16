@@ -163,7 +163,6 @@ export const homeScripts = () => {
 
     // text editor blinker animation
     setInterval(() => {
-      console.log("blink");
       if (blinker.style.opacity === "1") {
         blinker.style.opacity = "0";
       } else {

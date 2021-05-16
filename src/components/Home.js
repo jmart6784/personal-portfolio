@@ -3,9 +3,15 @@ import { Link } from "react-router-dom";
 import { homeScripts, unmountHomeScripts } from "./home-scripts";
 import projectData from "./project-data";
 import ProjectTile from "./ProjectTile";
+import skillsData from "./skills-data";
+import SkillCard from "./SkillCard";
 
 const Home = () => {
-  const projectsJsx = projectData.map((project) => {
+  const skillsJsx = skillsData.map((skill) => {
+    return <SkillCard skill={skill} key={skill.id} />;
+  });
+
+  const projectsJsx = projectData.slice(0, 6).map((project) => {
     return <ProjectTile key={project.id} project={project} />;
   });
 
@@ -78,151 +84,24 @@ const Home = () => {
             Skills
           </h1>
 
-          <div className="skills-tile-div">
-            <div className="card-flip">
-              <div id="html-tile" className="background-image card-front"></div>
+          <div className="skills-tile-div">{skillsJsx}</div>
 
-              <div className="card-back">HTML</div>
-
-              <p className="bottom-label">HTML</p>
-            </div>
-
-            <div className="card-flip">
-              <div id="css-tile" className="background-image card-front"></div>
-
-              <div className="card-back">CSS</div>
-
-              <p className="bottom-label">CSS</p>
-            </div>
-
-            <div className="card-flip">
-              <div id="scss-tile" className="background-image card-front"></div>
-
-              <div className="card-back">SCSS</div>
-
-              <p className="bottom-label">SCSS</p>
-            </div>
-
-            <div className="card-flip">
-              <div
-                id="bootstrap-tile"
-                className="background-image card-front"
-              ></div>
-
-              <div className="card-back">Bootstrap</div>
-
-              <p className="bottom-label">Bootstrap</p>
-            </div>
-
-            <div className="card-flip">
-              <div id="js-tile" className="background-image card-front"></div>
-
-              <div className="card-back">Javascript</div>
-
-              <p className="bottom-label">Javascript</p>
-            </div>
-
-            <div className="card-flip">
-              <div id="ruby-tile" className="background-image card-front"></div>
-
-              <div className="card-back">Ruby</div>
-
-              <p className="bottom-label">Ruby</p>
-            </div>
-
-            <div className="card-flip">
-              <div
-                id="rails-tile"
-                className="background-image card-front"
-              ></div>
-
-              <div className="card-back">Rails</div>
-
-              <p className="bottom-label">Rails</p>
-            </div>
-
-            <div className="card-flip">
-              <div id="jest-tile" className="background-image card-front"></div>
-
-              <div className="card-back">Jest</div>
-
-              <p className="bottom-label">Jest</p>
-            </div>
-
-            <div className="card-flip">
-              <div id="git-tile" className="background-image card-front"></div>
-
-              <div className="card-back">Git</div>
-
-              <p className="bottom-label">Git</p>
-            </div>
-
-            <div className="card-flip">
-              <div
-                id="github-tile"
-                className="background-image card-front"
-              ></div>
-
-              <div className="card-back">Github</div>
-
-              <p className="bottom-label">Github</p>
-            </div>
-
-            <div className="card-flip">
-              <div
-                id="heroku-tile"
-                className="background-image card-front"
-              ></div>
-
-              <div className="card-back">Heroku</div>
-
-              <p className="bottom-label">Heroku</p>
-            </div>
-
-            <div className="card-flip">
-              <div
-                id="webpack-tile"
-                className="background-image card-front"
-              ></div>
-
-              <div className="card-back">Webpack</div>
-
-              <p className="bottom-label">Webpack</p>
-            </div>
-
-            <div className="card-flip">
-              <div id="npm-tile" className="background-image card-front"></div>
-
-              <div className="card-back">NPM</div>
-
-              <p className="bottom-label">NPM</p>
-            </div>
-
-            <div className="card-flip">
-              <div id="yarn-tile" className="background-image card-front"></div>
-
-              <div className="card-back">Yarn</div>
-
-              <p className="bottom-label">Yarn</p>
-            </div>
-          </div>
-
-          <h1 id="skills-title" className="sec-title line-through">
+          {/* <h1 id="skills-title" className="sec-title line-through">
             What I'm learning
           </h1>
 
           <div className="skills-tile-div">
             <div className="card-flip">
               <div
-                id="react-tile"
+                id="name-tile"
                 className="background-image card-front"
               ></div>
 
-              <div className="card-back">React</div>
+              <div className="card-back">name</div>
 
-              <p className="bottom-label">React</p>
+              <p className="bottom-label">name</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div id="projects-container" className="content">
@@ -233,7 +112,7 @@ const Home = () => {
           <div id="project-grid">{projectsJsx}</div>
 
           <Link to="/projects" className="view-all-projects">
-            View All
+            View More
           </Link>
         </div>
 

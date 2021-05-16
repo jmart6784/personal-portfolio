@@ -1,7 +1,7 @@
 const projectData = [
   {
     id: 1,
-    Image: "instagram.png",
+    image: "instagram.png",
     title: "Instagram clone",
     description:
       "A full-stack Instagram clone app that uses Rails as the back-end. This project is also mobile friendly.",
@@ -11,7 +11,7 @@ const projectData = [
   },
   {
     id: 2,
-    Image: "odinbook.png",
+    image: "odinbook.png",
     title: "Odin Book",
     description:
       "My first attempt(Instgram clone is 2nd) at making a full stack application. I also implemnted omniauth support for Facebook sign in.",
@@ -21,7 +21,7 @@ const projectData = [
   },
   {
     id: 3,
-    Image: "waldo.png",
+    image: "waldo.png",
     title: "Where's Waldo?",
     description: "Character finding game built with rails as the back-end",
     tags: "Rails, Javascript, SCSS",
@@ -30,7 +30,7 @@ const projectData = [
   },
   {
     id: 4,
-    Image: "cart.png",
+    image: "cart.png",
     title: "Shopping Cart",
     description: "A shopping cart React app that uses React router",
     tags: "React, SCSS",
@@ -39,7 +39,7 @@ const projectData = [
   },
   {
     id: 5,
-    Image: "battleship.png",
+    image: "battleship.png",
     title: "Battleship",
     description:
       "A Battleship game that was built for the purpose of practicing with Javascript and Jest.",
@@ -49,7 +49,7 @@ const projectData = [
   },
   {
     id: 6,
-    Image: "memorycard.png",
+    image: "memorycard.png",
     title: "Memory Card",
     description: "A React app that uses functional components and hooks.",
     tags: "React, SCSS",
@@ -58,7 +58,7 @@ const projectData = [
   },
   {
     id: 7,
-    Image: "odinweather.png",
+    image: "odinweather.png",
     title: "Odin Weather",
     description:
       "A weather app made for the purpose of asynchronous Javascript and React programming using a third party weather API.",
@@ -68,7 +68,7 @@ const projectData = [
   },
   {
     id: 8,
-    Image: "flickr.png",
+    image: "flickr.png",
     title: "Flickr Feed",
     description: "Practice using the Flickr API with Rails.",
     tags: "Rails",
@@ -77,7 +77,7 @@ const projectData = [
   },
   {
     id: 9,
-    Image: "kittens.png",
+    image: "kittens.png",
     title: "Odin Kittens",
     description:
       "The purpose of this project was to practice creating a JSON API with rails.",
@@ -87,7 +87,7 @@ const projectData = [
   },
   {
     id: 10,
-    Image: "library.png",
+    image: "library.png",
     title: "Odin Library",
     description:
       "A Library app to track which books you've read. The purpose was to practice Javascript objects and local storage.",
@@ -97,7 +97,7 @@ const projectData = [
   },
   {
     id: 11,
-    Image: "tictactoe.png",
+    image: "tictactoe.png",
     title: "Tic Tac Toe",
     description:
       "Tic Tac Toe game created for the purpose of practicing Javascript modules and factory functions.",
@@ -107,7 +107,7 @@ const projectData = [
   },
   {
     id: 12,
-    Image: "gridframework.png",
+    image: "gridframework.png",
     title: "CSS grid Framework",
     description: "This project aims to build a simple grid framework.",
     tags: "CSS, SCSS",
@@ -116,7 +116,7 @@ const projectData = [
   },
   {
     id: 13,
-    Image: "responsivedesign.png",
+    image: "responsivedesign.png",
     title: "Responsive Design",
     description: "Practice with responsive design using media queries.",
     tags: "CSS",
@@ -125,7 +125,7 @@ const projectData = [
   },
   {
     id: 14,
-    Image: "hangman.png",
+    image: "hangman.png",
     title: "Hangman",
     description: "A Sinatra based hangman game",
     tags: "Sinatra, CSS",
@@ -134,7 +134,7 @@ const projectData = [
   },
   {
     id: 15,
-    Image: "cipher.png",
+    image: "cipher.png",
     title: "Ceaser's cipher",
     description: "Implmentation of Ceasar's cipher using Sinatra",
     tags: "Sinatra, CSS",
@@ -143,7 +143,7 @@ const projectData = [
   },
   {
     id: 16,
-    Image: "calculator.png",
+    image: "calculator.png",
     title: "Odin Calculator",
     description: "A simple calculator app built to practice with Javascript",
     tags: "Javascript, SCSS",
@@ -152,7 +152,7 @@ const projectData = [
   },
   {
     id: 17,
-    Image: "bootstrap.png",
+    image: "bootstrap.png",
     title: "Bootstrap practice",
     description: "Practice using Bootstrap by cloning the Newsweek website",
     tags: "Bootstrap",
@@ -161,7 +161,7 @@ const projectData = [
   },
   {
     id: 18,
-    Image: "booker.png",
+    image: "booker.png",
     title: "Odin Flight Booker",
     description: "A Flight booking app made using Rails",
     tags: "Rails, CSS",
@@ -170,7 +170,7 @@ const projectData = [
   },
   {
     id: 19,
-    Image: "todo.png",
+    image: "todo.png",
     title: "Todo app",
     description:
       "Javascript based todo app used to practice factory functions and modules.",
@@ -180,7 +180,7 @@ const projectData = [
   },
   {
     id: 20,
-    Image: "pomodoro.png",
+    image: "pomodoro.png",
     title: "Pomodoro Clock",
     description:
       "A Pomodoro clock made to practice programming with Javascript.",
@@ -190,7 +190,7 @@ const projectData = [
   },
   {
     id: 21,
-    Image: "etch.png",
+    image: "etch.png",
     title: "Etch-a-sketch",
     description:
       "Etch-a-sketch app made to practice programming with Javascript.",
@@ -200,7 +200,7 @@ const projectData = [
   },
   {
     id: 22,
-    Image: "restaurant.png",
+    image: "restaurant.png",
     title: "Odin Restaurant",
     description:
       "The purpose of this project was to practice with webpacker and npm, exporting and importing files.",
@@ -210,7 +210,7 @@ const projectData = [
   },
   {
     id: 23,
-    Image: "teardown.png",
+    image: "teardown.png",
     title: "Design teardown",
     description:
       "The purpose of this project was to practice color coding The Smashing Magazine's visual weight.",
@@ -220,7 +220,7 @@ const projectData = [
   },
   {
     id: 24,
-    Image: "apple.png",
+    image: "apple.png",
     title: "Odin Apple",
     description:
       "The purpose of this project was to practice cloning a website.",
@@ -230,7 +230,7 @@ const projectData = [
   },
   {
     id: 25,
-    Image: "odintimes.png",
+    image: "odintimes.png",
     title: "Odin Times",
     description: "Practice cloning a website (The NY Times).",
     tags: "CSS",
