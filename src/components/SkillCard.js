@@ -1,7 +1,6 @@
 import React from "react";
 
 const SkillCard = (props) => {
-  console.log(props);
   return (
     <div className="card-flip">
       <div
