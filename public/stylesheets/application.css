@@ -90,6 +90,11 @@ table {
   top: 50%;
   margin-top: -20px;
   font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 13px;
+          column-gap: 13px;
 }
 
 .flip-p {
@@ -554,6 +559,8 @@ table {
     margin-left: -200px;
     height: auto;
     font-size: 30px;
+    -webkit-column-gap: 11px;
+            column-gap: 11px;
   }
   #static-index-container {
     padding: 50px 0px 0px 0px;
@@ -600,6 +607,8 @@ table {
     margin-left: -160px;
     font-size: 20px;
     width: 340px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
   }
 }
 
@@ -630,6 +639,8 @@ table {
   .text {
     font-size: 16px;
     margin-left: -140px;
+    -webkit-column-gap: 8px;
+            column-gap: 8px;
   }
   .project-image {
     width: 275px;
@@ -641,6 +652,8 @@ table {
   .text {
     font-size: 15px;
     margin-left: -130px;
+    -webkit-column-gap: 5px;
+            column-gap: 5px;
   }
   #about-me-div {
     padding: 0px 10px 0px 10px;

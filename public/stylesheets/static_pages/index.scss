@@ -40,6 +40,8 @@
   top: 50%;
   margin-top: -20px;
   font-size: 40px;
+  display: flex;
+  column-gap: 13px;
 }
 
 .flip-p {
@@ -418,6 +420,7 @@
     margin-left: -200px;
     height: auto;
     font-size: 30px;
+    column-gap: 11px;
   }
 
   // About me text
@@ -476,6 +479,7 @@
     margin-left: -160px;
     font-size: 20px;
     width: 340px;
+    column-gap: 10px;
   }
 }
 
@@ -511,6 +515,7 @@
   .text {
     font-size: 16px;
     margin-left: -140px;
+    column-gap: 8px;
   }
 
   .project-image {
@@ -523,6 +528,7 @@
   .text {
     font-size: 15px;
     margin-left: -130px;
+    column-gap: 5px;
   }
 
   #about-me-div {
