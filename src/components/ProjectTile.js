@@ -1,4 +1,5 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 const ProjectTile = (props) => {
   let tempKey = 0;
@@ -83,8 +84,20 @@ const ProjectTile = (props) => {
     }
   });
 
+  const location = useLocation();
+  let divStyleClass;
+  let divStyleId;
+
+  if (location.pathname === "/") {
+    divStyleClass = "project-div content";
+    divStyleId = "";
+  } else if (location.pathname === "/projects") {
+    divStyleClass = "project-div";
+    divStyleId = "proj-index-color";
+  }
+
   return (
-    <div className="project-div content">
+    <div id={divStyleId} className={divStyleClass}>
       <div
         style={{
           backgroundImage: `url(/images/projects/${props.project.image})`,

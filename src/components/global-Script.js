@@ -102,7 +102,7 @@ const globalScript = () => {
 
     let home = document.querySelectorAll(".home-link");
 
-    if (home.length != 0) {
+    if (home.length !== 0) {
       home.forEach((link) => {
         link.addEventListener("click", () => {
           window.scrollTo({ top: 0, behavior: "smooth" });
