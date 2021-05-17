@@ -193,7 +193,6 @@ const Home = () => {
     }
 
     return () => {
-      console.log("unMount");
       clearInterval(flipTextInterval);
       clearInterval(aboutMeBlinkerInterval);
       clearInterval(aboutMeTypeInterval);

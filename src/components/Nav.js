@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
-  const location = useLocation();
+  const { pathname, hash } = useLocation();
   let navLinks;
   let mobileLinks;
 
-  if (location.pathname === "/") {
+  if (pathname === "/") {
     navLinks = (
       <div id="inner-div">
         <button className="home-link nav-link">Home</button>
@@ -67,6 +67,26 @@ const Nav = () => {
       </div>
     );
   }
+
+  useEffect(() => {
+    // if not a hash link, scroll to top
+    if (hash === "") {
+      window.scrollTo(0, 0);
+    }
+    // else scroll to id
+    else {
+      setTimeout(() => {
+        const id = hash.replace("#", "");
+        const element = document.getElementById(id);
+        if (element) {
+          const y =
+            element.getBoundingClientRect().top + window.pageYOffset + -200;
+          // element.scrollIntoView();
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }
+      }, 0);
+    }
+  }, [pathname, hash]);
 
   return (
     <div>

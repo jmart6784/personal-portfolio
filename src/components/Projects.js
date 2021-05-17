@@ -4,7 +4,7 @@ import ProjectTile from "./ProjectTile";
 import globalScript from "./global-Script";
 
 const Projects = () => {
-  const projectsJsx = projectData.slice(0, 6).map((project) => {
+  const projectsJsx = projectData.map((project) => {
     return <ProjectTile key={project.id} project={project} />;
   });
 
