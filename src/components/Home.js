@@ -242,9 +242,9 @@ const Home = () => {
               that I really enjoyed what I was doing and so I continued through
               the curriculum where I learned many new and exciting concepts.
               With that knowledge I created projects along the way to practice
-              my programming knowledge and problem solving skills. My curiousity
-              and desire to learn hasn't stopped. I am currently learning
-              React.js and adding that to my growing skill set.
+              my programming knowledge and problem solving skills. I am
+              currently looking for opportunities to work with other developers
+              and/or companies.
             </p>
           </div>
 
