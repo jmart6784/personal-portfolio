@@ -79,7 +79,7 @@
 
 // About me styling
 #static-index-container {
-  padding: 50px 50px 0px 50px;
+  padding-top: 50px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -88,6 +88,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 300px;
+  padding: 0px 50px 0px 50px;
 }
 
 .content {
@@ -124,6 +125,7 @@
 // Skills section
 #skills-container {
   margin-bottom: 300px;
+  padding: 0px 50px 0px 50px;
 }
 
 #skills-title {
