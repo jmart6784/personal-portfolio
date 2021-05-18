@@ -10,7 +10,7 @@ const Projects = () => {
 
   useEffect(() => {
     globalScript();
-  }, []);
+  });
 
   return (
     <div>

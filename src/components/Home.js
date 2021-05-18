@@ -300,6 +300,14 @@ const Home = () => {
             Interested in working together or have questions?
           </p>
           <p className="contact-text">jmartinezdev6784@gmail.com</p>
+          <p className="contact-text">
+            <a
+              href="https://www.linkedin.com/in/juan-martinez-17a8b0205/"
+              target="blank"
+            >
+              LinkedIn
+            </a>
+          </p>
         </div>
       </div>
     </div>
