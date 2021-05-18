@@ -21,6 +21,16 @@ const projectData = [
   },
   {
     id: 3,
+    image: "rails-react-recipes.png",
+    title: "Rails & React recipes",
+    description:
+      "The purpose of this project was to practice integrating Ruby on Rails and React together.",
+    tags: "Rails, React, SCSS",
+    live: "https://rails-react-recipes-app.herokuapp.com/#/",
+    github: "https://github.com/jmart6784/rails-react-recipes",
+  },
+  {
+    id: 4,
     image: "waldo.png",
     title: "Where's Waldo?",
     description: "Character finding game built with rails as the back-end",
@@ -29,7 +39,17 @@ const projectData = [
     github: "https://github.com/jmart6784/waldo",
   },
   {
-    id: 4,
+    id: 5,
+    image: "meme-generator.png",
+    title: "Meme generator",
+    description:
+      "A React based application that utilizes a meme API that fetches meme data in JSON format. This app also contains a download feature.",
+    tags: "React, Javascript, SCSS",
+    live: "https://jmart6784.github.io/meme-generator/",
+    github: "https://github.com/jmart6784/meme-generator",
+  },
+  {
+    id: 6,
     image: "cart.png",
     title: "Shopping Cart",
     description: "A shopping cart React app that uses React router",
@@ -38,7 +58,7 @@ const projectData = [
     github: "https://github.com/jmart6784/shopping-cart",
   },
   {
-    id: 5,
+    id: 7,
     image: "battleship.png",
     title: "Battleship",
     description:
@@ -48,7 +68,7 @@ const projectData = [
     github: "https://github.com/jmart6784/battleship",
   },
   {
-    id: 6,
+    id: 8,
     image: "memorycard.png",
     title: "Memory Card",
     description: "A React app that uses functional components and hooks.",
@@ -57,7 +77,7 @@ const projectData = [
     github: "https://github.com/jmart6784/memory-card",
   },
   {
-    id: 7,
+    id: 9,
     image: "odinweather.png",
     title: "Odin Weather",
     description:
@@ -67,7 +87,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-weather",
   },
   {
-    id: 8,
+    id: 10,
     image: "flickr.png",
     title: "Flickr Feed",
     description: "Practice using the Flickr API with Rails.",
@@ -76,7 +96,7 @@ const projectData = [
     github: "https://github.com/jmart6784/my-flickr-feed",
   },
   {
-    id: 9,
+    id: 11,
     image: "kittens.png",
     title: "Odin Kittens",
     description:
@@ -86,7 +106,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-kittens",
   },
   {
-    id: 10,
+    id: 12,
     image: "library.png",
     title: "Odin Library",
     description:
@@ -96,7 +116,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-library",
   },
   {
-    id: 11,
+    id: 13,
     image: "tictactoe.png",
     title: "Tic Tac Toe",
     description:
@@ -106,7 +126,7 @@ const projectData = [
     github: "https://github.com/jmart6784/tic-tac-toe",
   },
   {
-    id: 12,
+    id: 14,
     image: "gridframework.png",
     title: "CSS grid Framework",
     description: "This project aims to build a simple grid framework.",
@@ -115,7 +135,7 @@ const projectData = [
     github: "https://github.com/jmart6784/grid-framework",
   },
   {
-    id: 13,
+    id: 15,
     image: "responsivedesign.png",
     title: "Responsive Design",
     description: "Practice with responsive design using media queries.",
@@ -124,7 +144,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-responsive-design",
   },
   {
-    id: 14,
+    id: 16,
     image: "hangman.png",
     title: "Hangman",
     description: "A Sinatra based hangman game",
@@ -133,7 +153,7 @@ const projectData = [
     github: "https://github.com/jmart6784/sinatra-hangman",
   },
   {
-    id: 15,
+    id: 17,
     image: "cipher.png",
     title: "Ceaser's cipher",
     description: "Implmentation of Ceasar's cipher using Sinatra",
@@ -142,7 +162,7 @@ const projectData = [
     github: "https://github.com/jmart6784/sinatra-cipher",
   },
   {
-    id: 16,
+    id: 18,
     image: "calculator.png",
     title: "Odin Calculator",
     description: "A simple calculator app built to practice with Javascript",
@@ -151,7 +171,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-calculator",
   },
   {
-    id: 17,
+    id: 19,
     image: "bootstrap.png",
     title: "Bootstrap practice",
     description: "Practice using Bootstrap by cloning the Newsweek website",
@@ -160,7 +180,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-bootstrap",
   },
   {
-    id: 18,
+    id: 20,
     image: "booker.png",
     title: "Odin Flight Booker",
     description: "A Flight booking app made using Rails",
@@ -169,7 +189,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-flight-booker",
   },
   {
-    id: 19,
+    id: 21,
     image: "todo.png",
     title: "Todo app",
     description:
@@ -179,7 +199,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-todo",
   },
   {
-    id: 20,
+    id: 22,
     image: "pomodoro.png",
     title: "Pomodoro Clock",
     description:
@@ -189,7 +209,7 @@ const projectData = [
     github: "https://github.com/jmart6784/Pomodoro-Clock",
   },
   {
-    id: 21,
+    id: 23,
     image: "etch.png",
     title: "Etch-a-sketch",
     description:
@@ -199,7 +219,7 @@ const projectData = [
     github: "https://github.com/jmart6784/Etch-a-sketch",
   },
   {
-    id: 22,
+    id: 24,
     image: "restaurant.png",
     title: "Odin Restaurant",
     description:
@@ -209,7 +229,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-restaurant",
   },
   {
-    id: 23,
+    id: 25,
     image: "teardown.png",
     title: "Design teardown",
     description:
@@ -219,7 +239,7 @@ const projectData = [
     github: "https://github.com/jmart6784/odin-design-teardown",
   },
   {
-    id: 24,
+    id: 26,
     image: "apple.png",
     title: "Odin Apple",
     description:
@@ -229,7 +249,7 @@ const projectData = [
     github: "https://github.com/jmart6784/Odin-Apple",
   },
   {
-    id: 25,
+    id: 27,
     image: "odintimes.png",
     title: "Odin Times",
     description: "Practice cloning a website (The NY Times).",
