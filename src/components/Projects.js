@@ -16,7 +16,7 @@ const Projects = () => {
     <div>
       <div id="static-vid-div" className="video-container bg-projects">
         <video
-          src="./../../images/vid2.vid"
+          src="/images/vid2.vid"
           className="static-index-video"
           playinline="true"
           autoPlay
