@@ -4,7 +4,7 @@ const SkillCard = (props) => {
   return (
     <div className="card-flip">
       <div
-        id={`${props.skill.name.toLowerCase()}-tile`}
+        style={{ backgroundImage: `url(images/${props.skill.image})` }}
         className="background-image card-front"
       ></div>
 

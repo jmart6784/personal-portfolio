@@ -100,7 +100,7 @@ const ProjectTile = (props) => {
     <div id={divStyleId} className={divStyleClass}>
       <div
         style={{
-          backgroundImage: `url(/images/projects/${props.project.image})`,
+          backgroundImage: `url(images/projects/${props.project.image})`,
         }}
         className="project-image background-image"
       ></div>

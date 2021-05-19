@@ -204,7 +204,7 @@ const Home = () => {
     <div>
       <div id="static-vid-div" className="video-container bg-static-index">
         <video
-          src="/images/vid1.mp4"
+          src="images/vid1.mp4"
           className="static-index-video"
           playsInline
           autoPlay
