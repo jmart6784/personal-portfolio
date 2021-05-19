@@ -14,7 +14,11 @@ const Projects = () => {
 
   return (
     <div>
-      <div id="static-vid-div" className="video-container bg-projects">
+      <div
+        style={{ backgroundImage: "url(images/bg-proj.png)" }}
+        id="static-vid-div"
+        className="video-container"
+      >
         <video
           src="images/vid2.vid"
           className="static-index-video"

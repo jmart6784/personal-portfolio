@@ -73,14 +73,6 @@ table {
   z-index: -1;
 }
 
-.bg-static-index {
-  background-image: url("images/bg-static.png");
-}
-
-.bg-projects {
-  background-image: url("images/bg-proj.png");
-}
-
 .text {
   position: absolute;
   width: 700px;

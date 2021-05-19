@@ -202,7 +202,11 @@ const Home = () => {
 
   return (
     <div>
-      <div id="static-vid-div" className="video-container bg-static-index">
+      <div
+        style={{ backgroundImage: "url(images/bg-static.png)" }}
+        id="static-vid-div"
+        className="video-container"
+      >
         <video
           src="images/vid1.mp4"
           className="static-index-video"
