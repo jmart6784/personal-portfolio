@@ -23,7 +23,7 @@ const projectData = [
     image: "odinbook.png",
     title: "Odin Book",
     description:
-      "My first attempt at making a full stack application. My second attempt was an Instagram clone. I also implemnted omniauth support for Facebook sign in.",
+      "My first attempt at making a full stack application. My second attempt was an Instagram clone. I also implemented omniauth support for Facebook sign in.",
     tags: "Rails, Javascript, CSS",
     live: "https://odinbook-app.herokuapp.com",
     github: "https://github.com/jmart6784/odin-facebook",
