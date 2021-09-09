@@ -4,11 +4,16 @@ import projectData from "./project-data";
 import ProjectTile from "./ProjectTile";
 import skillsData from "./skills-data";
 import SkillCard from "./SkillCard";
+import softSkillsData from "./soft-skill-data";
 import globalScript from "./global-Script";
 
 const Home = () => {
   const skillsJsx = skillsData.map((skill) => {
     return <SkillCard skill={skill} key={skill.id} />;
+  });
+
+  const softSkillsJsx = softSkillsData.map((skill) => {
+    return <SkillCard skill={skill} key={skill.id} />
   });
 
   const projectsJsx = projectData.slice(0, 6).map((project) => {
@@ -266,6 +271,13 @@ const Home = () => {
           </h1>
 
           <div className="skills-tile-div">{skillsJsx}</div>
+
+
+          <h1 id="skills-title" className="sec-title line-through">
+            Soft Skills
+          </h1>
+
+          <div className="skills-tile-div">{softSkillsJsx}</div>
 
           {/* <h1 id="skills-title" className="sec-title line-through">
             What I'm learning
