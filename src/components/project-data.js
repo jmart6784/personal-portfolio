@@ -6,7 +6,7 @@ const projectData = [
     description:
       "A Tic Tac Toe game made for the purpose of trying out C#. This project was completed after watching a general introduction video on C#.",
     tags: "C#",
-    live: null,
+    live: "http://tpcg.io/_39VKCM",
     github: "https://github.com/jmart6784/csharp-tic-tac-toe",
   },
   {
