@@ -75,6 +75,16 @@ const ProjectTile = (props) => {
           {tag}
         </p>
       );
+    } else if (tag === "C#") {
+      return (
+        <p
+          key={`${props.project.title}-${tempKey}`}
+          className="project-tag"
+          style={{ backgroundColor: "rgba(57,0,145,255)" }}
+        >
+          {tag}
+        </p>
+      );
     } else {
       return (
         <p key={`${props.project.title}-${tempKey}`} className="project-tag">
@@ -94,6 +104,18 @@ const ProjectTile = (props) => {
   } else if (location.pathname === "/projects") {
     divStyleClass = "project-div";
     divStyleId = "proj-index-color";
+  }
+
+  let visitJsx = (
+    <a href={props.project.live} target="blank" className="project-link">
+      Visit
+    </a>
+  );
+
+  if (props.project.live === "Soon") {
+    visitJsx = <p className="project-soon">Soon</p>;
+  } else if (props.project.live === null) {
+    visitJsx = <p className="project-soon">N/A</p>;
   }
 
   return (
@@ -120,17 +142,7 @@ const ProjectTile = (props) => {
             Code
           </a>
 
-          {props.project.live === "Soon" ? (
-            <p className="project-soon">Soon</p>
-          ) : (
-            <a
-              href={props.project.live}
-              target="blank"
-              className="project-link"
-            >
-              Visit
-            </a>
-          )}
+          {visitJsx}
         </div>
       </div>
     </div>
