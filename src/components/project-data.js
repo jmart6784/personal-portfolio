@@ -16,7 +16,7 @@ const projectData = [
     description:
       "The main purpose of this project was to practice Rails APIs with React. And to create a logical quiz application using those tools.",
     tags: "Rails, React, Javascript, SCSS",
-    live: "https://app-quiz-me.herokuapp.com/#/",
+    live: "https://quiz-me.fly.dev/",
     github: "https://github.com/jmart6784/quiz-me",
   },
   {
@@ -36,7 +36,7 @@ const projectData = [
     description:
       "A full-stack Instagram clone app that uses Rails as the back-end. This project is also mobile friendly.",
     tags: "Rails, Javascript, SCSS",
-    live: "https://cloned-instagram-app.herokuapp.com/",
+    live: "https://instagram-app.fly.dev/",
     github: "https://github.com/jmart6784/instagram",
   },
   {
@@ -46,7 +46,7 @@ const projectData = [
     description:
       "My first attempt at making a full stack application. My second attempt was an Instagram clone. I also implemented omniauth support for Facebook sign in.",
     tags: "Rails, Javascript, CSS",
-    live: "https://odinbook-app.herokuapp.com",
+    live: "https://odinbook.fly.dev/",
     github: "https://github.com/jmart6784/odin-facebook",
   },
   {
@@ -55,7 +55,7 @@ const projectData = [
     title: "Where's Waldo?",
     description: "Character finding game built with rails as the back-end",
     tags: "Rails, Javascript, SCSS",
-    live: "https://odin-wheres-waldo-app.herokuapp.com/",
+    live: "https://wheres-waldo-game.fly.dev/",
     github: "https://github.com/jmart6784/waldo",
   },
   {
@@ -75,7 +75,7 @@ const projectData = [
     description:
       "The purpose of this project was to practice integrating Ruby on Rails and React together.",
     tags: "Rails, React, SCSS",
-    live: "https://rails-react-recipes-app.herokuapp.com/#/",
+    live: "https://rails-react-recipes.fly.dev/#/",
     github: "https://github.com/jmart6784/rails-react-recipes",
   },
   {
@@ -122,7 +122,7 @@ const projectData = [
     title: "Flickr Feed",
     description: "Practice using the Flickr API with Rails.",
     tags: "Rails",
-    live: "https://odin-flickr.herokuapp.com/",
+    live: "https://flickr-gallery.fly.dev/",
     github: "https://github.com/jmart6784/my-flickr-feed",
   },
   {
@@ -132,7 +132,7 @@ const projectData = [
     description:
       "The purpose of this project was to practice creating a JSON API with rails.",
     tags: "Rails, Javascript, SCSS",
-    live: "https://odin-kittens-api.herokuapp.com/",
+    live: "https://kittens-api.fly.dev/",
     github: "https://github.com/jmart6784/odin-kittens",
   },
   {
@@ -179,7 +179,7 @@ const projectData = [
     title: "Hangman",
     description: "A Sinatra based hangman game",
     tags: "Sinatra, CSS",
-    live: "https://sinatra4567-hangman.herokuapp.com/",
+    live: "https://sinatra-hangman.fly.dev/",
     github: "https://github.com/jmart6784/sinatra-hangman",
   },
   {
@@ -188,7 +188,7 @@ const projectData = [
     title: "Ceaser's cipher",
     description: "Implmentation of Ceasar's cipher using Sinatra",
     tags: "Sinatra, CSS",
-    live: "https://caesars-cipher4567.herokuapp.com/",
+    live: "https://sinatra-cipher.fly.dev/",
     github: "https://github.com/jmart6784/sinatra-cipher",
   },
   {
