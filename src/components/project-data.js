@@ -26,7 +26,7 @@ const projectData = [
     description:
       "The purpose of this project was to practice actioncable websockets. This app features a real time chat without a page refresh.",
     tags: "Rails, Javascript, SCSS",
-    live: "https://quick-chats-app.herokuapp.com/users",
+    live: "https://quick-chats.fly.dev",
     github: "https://github.com/jmart6784/chat-app",
   },
   {
