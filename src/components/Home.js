@@ -13,7 +13,7 @@ const Home = () => {
   });
 
   const softSkillsJsx = softSkillsData.map((skill) => {
-    return <SkillCard skill={skill} key={skill.id} />
+    return <SkillCard skill={skill} key={skill.id} />;
   });
 
   const projectsJsx = projectData.slice(0, 6).map((project) => {
@@ -197,10 +197,29 @@ const Home = () => {
       aboutMeTypeInterval = setInterval(typer, 250);
     }
 
+    let blur = 0;
+    let increment = true;
+    const indexDiv = document.getElementById("static-index-container");
+
+    const pulseBlur = () => {
+      if (increment) {
+        blur < 5 ? blur++ : (increment = false);
+      } else {
+        blur > 0 ? blur-- : (increment = true);
+      }
+      indexDiv.style.backdropFilter = `blur(${blur}px)`;
+      indexDiv.style.transition = "0.3s";
+    };
+
+    const pulseBlurInterval = setInterval(pulseBlur, [300]);
+
+    pulseBlur();
+
     return () => {
       clearInterval(flipTextInterval);
       clearInterval(aboutMeBlinkerInterval);
       clearInterval(aboutMeTypeInterval);
+      clearInterval(pulseBlurInterval);
       window.removeEventListener("resize", () => {});
     };
   });
@@ -271,7 +290,6 @@ const Home = () => {
           </h1>
 
           <div className="skills-tile-div">{skillsJsx}</div>
-
 
           <h1 id="skills-title" className="sec-title line-through">
             Soft Skills
