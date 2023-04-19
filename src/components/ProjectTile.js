@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 const ProjectTile = (props) => {
   let tagsJsx = props.project.tags.split(", ").map((tag, i) => {
@@ -112,9 +112,9 @@ const ProjectTile = (props) => {
 
   if (props.project.status === "demo") {
     visitJsx = (
-      <button type="button" className="project-link project-demo">
+      <Link to={`/video-demo/${props.project.live}`} className="project-link">
         Demo
-      </button>
+      </Link>
     );
   } else {
     if (props.project.live === "Soon") {
