@@ -4,7 +4,7 @@ const projectData = [
     image: "clip-scroll.png",
     title: "Clip Scroll",
     description:
-      "This project is currently a work in progress. It features both the YouTube and Reddit API with the purpose of gathering vertical videos and displayling them.",
+      'This project is currently a work in progress. It features both the YouTube and Reddit API with the purpose of gathering vertical videos and displayling them. Click "Demo" link below to see a short video demonstration.',
     tags: "Rails, React, Javascript, SCSS",
     live: "clip-scroll.mkv",
     github: "https://github.com/jmart6784/clip-scroll",
