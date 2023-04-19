@@ -1,8 +1,6 @@
 import React from "react";
 
 const VideoDemo = (props) => {
-  console.log(props);
-
   return (
     <div className="demo-video-wrapper">
       <video
