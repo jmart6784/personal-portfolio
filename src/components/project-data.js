@@ -1,13 +1,14 @@
 const projectData = [
   {
     id: 1,
-    image: "c.png",
-    title: "C# Tic Tac Toe",
+    image: "clip-scroll.png",
+    title: "Clip Scroll",
     description:
-      "A Tic Tac Toe game made for the purpose of trying out C#. This project was completed after watching a general introduction video on C#.",
-    tags: "C#",
-    live: "http://tpcg.io/_39VKCM",
-    github: "https://github.com/jmart6784/csharp-tic-tac-toe",
+      "This project is currently a work in progress. It features both the YouTube and Reddit API with the purpose of gathering vertical videos and displayling them.",
+    tags: "Rails, React, Javascript, SCSS",
+    live: "",
+    github: "https://github.com/jmart6784/clip-scroll",
+    status: "demo",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const projectData = [
     tags: "Rails, React, Javascript, SCSS",
     live: "https://quiz-me.fly.dev/",
     github: "https://github.com/jmart6784/quiz-me",
+    status: "live",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const projectData = [
     tags: "Rails, Javascript, SCSS",
     live: "https://quick-chats.fly.dev",
     github: "https://github.com/jmart6784/chat-app",
+    status: "live",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const projectData = [
     tags: "Rails, Javascript, SCSS",
     live: "https://instagram-app.fly.dev/",
     github: "https://github.com/jmart6784/instagram",
+    status: "live",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ const projectData = [
     tags: "Rails, Javascript, CSS",
     live: "https://odinbook.fly.dev/",
     github: "https://github.com/jmart6784/odin-facebook",
+    status: "live",
   },
   {
     id: 6,
@@ -60,6 +65,17 @@ const projectData = [
   },
   {
     id: 7,
+    image: "c.png",
+    title: "C# Tic Tac Toe",
+    description:
+      "A Tic Tac Toe game made for the purpose of trying out C#. This project was completed after watching a general introduction video on C#.",
+    tags: "C#",
+    live: "http://tpcg.io/_39VKCM",
+    github: "https://github.com/jmart6784/csharp-tic-tac-toe",
+    status: "live",
+  },
+  {
+    id: 8,
     image: "meme-generator.png",
     title: "Meme generator",
     description:
@@ -67,9 +83,10 @@ const projectData = [
     tags: "React, Javascript, SCSS",
     live: "https://jmart6784.github.io/meme-generator/",
     github: "https://github.com/jmart6784/meme-generator",
+    status: "live",
   },
   {
-    id: 8,
+    id: 9,
     image: "rails-react-recipes.png",
     title: "Rails & React recipes",
     description:
@@ -77,18 +94,20 @@ const projectData = [
     tags: "Rails, React, SCSS",
     live: "https://rails-react-recipes.fly.dev/#/",
     github: "https://github.com/jmart6784/rails-react-recipes",
+    status: "live",
   },
   {
-    id: 9,
+    id: 10,
     image: "cart.png",
     title: "Shopping Cart",
     description: "A shopping cart React app that uses React router",
     tags: "React, SCSS",
     live: "https://jmart6784.github.io/shopping-cart/",
     github: "https://github.com/jmart6784/shopping-cart",
+    status: "live",
   },
   {
-    id: 10,
+    id: 11,
     image: "battleship.png",
     title: "Battleship",
     description:
@@ -96,18 +115,20 @@ const projectData = [
     tags: "Javascript, Jest, SCSS",
     live: "https://jmart6784.github.io/battleship/",
     github: "https://github.com/jmart6784/battleship",
+    status: "live",
   },
   {
-    id: 11,
+    id: 12,
     image: "memorycard.png",
     title: "Memory Card",
     description: "A React app that uses functional components and hooks.",
     tags: "React, SCSS",
     live: "https://jmart6784.github.io/memory-card/",
     github: "https://github.com/jmart6784/memory-card",
+    status: "live",
   },
   {
-    id: 12,
+    id: 13,
     image: "odinweather.png",
     title: "Odin Weather",
     description:
@@ -115,18 +136,20 @@ const projectData = [
     tags: "React, Javascript, SCSS",
     live: "https://jmart6784.github.io/odin-weather/",
     github: "https://github.com/jmart6784/odin-weather",
+    status: "live",
   },
   {
-    id: 13,
+    id: 14,
     image: "flickr.png",
     title: "Flickr Feed",
     description: "Practice using the Flickr API with Rails.",
     tags: "Rails",
     live: "https://flickr-gallery.fly.dev/",
     github: "https://github.com/jmart6784/my-flickr-feed",
+    status: "live",
   },
   {
-    id: 14,
+    id: 15,
     image: "kittens.png",
     title: "Odin Kittens",
     description:
@@ -134,9 +157,10 @@ const projectData = [
     tags: "Rails, Javascript, SCSS",
     live: "https://kittens-api.fly.dev/",
     github: "https://github.com/jmart6784/odin-kittens",
+    status: "live",
   },
   {
-    id: 15,
+    id: 16,
     image: "library.png",
     title: "Odin Library",
     description:
@@ -144,9 +168,10 @@ const projectData = [
     tags: "Javascript, SCSS",
     live: "https://jmart6784.github.io/odin-library/",
     github: "https://github.com/jmart6784/odin-library",
+    status: "live",
   },
   {
-    id: 16,
+    id: 17,
     image: "tictactoe.png",
     title: "Tic Tac Toe",
     description:
@@ -154,72 +179,80 @@ const projectData = [
     tags: "Javascript, SCSS",
     live: "https://jmart6784.github.io/tic-tac-toe/",
     github: "https://github.com/jmart6784/tic-tac-toe",
+    status: "live",
   },
   {
-    id: 17,
+    id: 18,
     image: "gridframework.png",
     title: "CSS grid Framework",
     description: "This project aims to build a simple grid framework.",
     tags: "CSS, SCSS",
     live: "https://jmart6784.github.io/grid-framework/",
     github: "https://github.com/jmart6784/grid-framework",
+    status: "live",
   },
   {
-    id: 18,
+    id: 19,
     image: "responsivedesign.png",
     title: "Responsive Design",
     description: "Practice with responsive design using media queries.",
     tags: "CSS",
     live: "https://jmart6784.github.io/odin-responsive-design/",
     github: "https://github.com/jmart6784/odin-responsive-design",
+    status: "live",
   },
   {
-    id: 19,
+    id: 20,
     image: "hangman.png",
     title: "Hangman",
     description: "A Sinatra based hangman game",
     tags: "Sinatra, CSS",
     live: "https://sinatra-hangman.fly.dev/",
     github: "https://github.com/jmart6784/sinatra-hangman",
+    status: "live",
   },
   {
-    id: 20,
+    id: 21,
     image: "cipher.png",
     title: "Ceaser's cipher",
     description: "Implmentation of Ceasar's cipher using Sinatra",
     tags: "Sinatra, CSS",
     live: "https://sinatra-cipher.fly.dev/",
     github: "https://github.com/jmart6784/sinatra-cipher",
+    status: "live",
   },
   {
-    id: 21,
+    id: 22,
     image: "calculator.png",
     title: "Odin Calculator",
     description: "A simple calculator app built to practice with Javascript",
     tags: "Javascript, SCSS",
     live: "https://jmart6784.github.io/odin-calculator/",
     github: "https://github.com/jmart6784/odin-calculator",
+    status: "live",
   },
   {
-    id: 22,
+    id: 23,
     image: "bootstrap.png",
     title: "Bootstrap practice",
     description: "Practice using Bootstrap by cloning the Newsweek website",
     tags: "Bootstrap",
     live: "https://jmart6784.github.io/odin-bootstrap/",
     github: "https://github.com/jmart6784/odin-bootstrap",
+    status: "live",
   },
   {
-    id: 23,
+    id: 24,
     image: "booker.png",
     title: "Odin Flight Booker",
     description: "A Flight booking app made using Rails",
     tags: "Rails, CSS",
     live: "https://odin-flight-booker365.herokuapp.com/",
     github: "https://github.com/jmart6784/odin-flight-booker",
+    status: "live",
   },
   {
-    id: 24,
+    id: 25,
     image: "todo.png",
     title: "Todo app",
     description:
@@ -227,9 +260,10 @@ const projectData = [
     tags: "Javascript, SCSS",
     live: "https://jmart6784.github.io/odin-todo/",
     github: "https://github.com/jmart6784/odin-todo",
+    status: "live",
   },
   {
-    id: 25,
+    id: 26,
     image: "pomodoro.png",
     title: "Pomodoro Clock",
     description:
@@ -237,9 +271,10 @@ const projectData = [
     tags: "Javascript, CSS",
     live: "https://jmart6784.github.io/Pomodoro-Clock/",
     github: "https://github.com/jmart6784/Pomodoro-Clock",
+    status: "live",
   },
   {
-    id: 26,
+    id: 27,
     image: "etch.png",
     title: "Etch-a-sketch",
     description:
@@ -247,9 +282,10 @@ const projectData = [
     tags: "Javascript, CSS",
     live: "https://jmart6784.github.io/Etch-a-sketch/",
     github: "https://github.com/jmart6784/Etch-a-sketch",
+    status: "live",
   },
   {
-    id: 27,
+    id: 28,
     image: "restaurant.png",
     title: "Odin Restaurant",
     description:
@@ -257,9 +293,10 @@ const projectData = [
     tags: "Javascript, SCSS",
     live: "https://jmart6784.github.io/odin-restaurant/",
     github: "https://github.com/jmart6784/odin-restaurant",
+    status: "live",
   },
   {
-    id: 28,
+    id: 29,
     image: "teardown.png",
     title: "Design teardown",
     description:
@@ -267,9 +304,10 @@ const projectData = [
     tags: "CSS",
     live: "https://jmart6784.github.io/odin-design-teardown/",
     github: "https://github.com/jmart6784/odin-design-teardown",
+    status: "live",
   },
   {
-    id: 29,
+    id: 30,
     image: "apple.png",
     title: "Odin Apple",
     description:
@@ -277,15 +315,17 @@ const projectData = [
     tags: "CSS",
     live: "https://jmart6784.github.io/Odin-Apple/",
     github: "https://github.com/jmart6784/Odin-Apple",
+    status: "live",
   },
   {
-    id: 30,
+    id: 31,
     image: "odintimes.png",
     title: "Odin Times",
     description: "Practice cloning a website (The NY Times).",
     tags: "CSS",
     live: "https://jmart6784.github.io/Odin-ny-times/",
     github: "https://github.com/jmart6784/Odin-ny-times",
+    status: "live",
   },
 ];
 
