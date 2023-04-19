@@ -2,13 +2,11 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 const ProjectTile = (props) => {
-  let tempKey = 0;
-  let tagsJsx = props.project.tags.split(", ").map((tag) => {
-    tempKey += 1;
+  let tagsJsx = props.project.tags.split(", ").map((tag, i) => {
     if (tag === "Javascript") {
       return (
         <p
-          key={`${props.project.title}-${tempKey}`}
+          key={`${props.project.title}-${i}`}
           className="project-tag"
           style={{ backgroundColor: "rgb(172, 152, 0)" }}
         >
@@ -18,7 +16,7 @@ const ProjectTile = (props) => {
     } else if (tag === "Rails" || tag === "Sinatra") {
       return (
         <p
-          key={`${props.project.title}-${tempKey}`}
+          key={`${props.project.title}-${i}`}
           className="project-tag"
           style={{ backgroundColor: "rgb(143, 0, 10)" }}
         >
@@ -28,7 +26,7 @@ const ProjectTile = (props) => {
     } else if (tag === "React") {
       return (
         <p
-          key={`${props.project.title}-${tempKey}`}
+          key={`${props.project.title}-${i}`}
           className="project-tag"
           style={{ backgroundColor: "rgb(0, 159, 199)" }}
         >
@@ -38,7 +36,7 @@ const ProjectTile = (props) => {
     } else if (tag === "SCSS") {
       return (
         <p
-          key={`${props.project.title}-${tempKey}`}
+          key={`${props.project.title}-${i}`}
           className="project-tag"
           style={{ backgroundColor: "rgb(213, 111, 164)" }}
         >
@@ -48,7 +46,7 @@ const ProjectTile = (props) => {
     } else if (tag === "CSS") {
       return (
         <p
-          key={`${props.project.title}-${tempKey}`}
+          key={`${props.project.title}-${i}`}
           className="project-tag"
           style={{ backgroundColor: "rgb(2, 119, 189)" }}
         >
@@ -58,7 +56,7 @@ const ProjectTile = (props) => {
     } else if (tag === "Jest") {
       return (
         <p
-          key={`${props.project.title}-${tempKey}`}
+          key={`${props.project.title}-${i}`}
           className="project-tag"
           style={{ backgroundColor: "rgb(204, 70, 21)" }}
         >
@@ -68,7 +66,7 @@ const ProjectTile = (props) => {
     } else if (tag === "Bootstrap") {
       return (
         <p
-          key={`${props.project.title}-${tempKey}`}
+          key={`${props.project.title}-${i}`}
           className="project-tag"
           style={{ backgroundColor: "rgb(86, 61, 124)" }}
         >
@@ -78,7 +76,7 @@ const ProjectTile = (props) => {
     } else if (tag === "C#") {
       return (
         <p
-          key={`${props.project.title}-${tempKey}`}
+          key={`${props.project.title}-${i}`}
           className="project-tag"
           style={{ backgroundColor: "rgba(57,0,145,255)" }}
         >
@@ -87,7 +85,7 @@ const ProjectTile = (props) => {
       );
     } else {
       return (
-        <p key={`${props.project.title}-${tempKey}`} className="project-tag">
+        <p key={`${props.project.title}-${i}`} className="project-tag">
           {tag}
         </p>
       );
@@ -112,10 +110,18 @@ const ProjectTile = (props) => {
     </a>
   );
 
-  if (props.project.live === "Soon") {
-    visitJsx = <p className="project-soon">Soon</p>;
-  } else if (props.project.live === null) {
-    visitJsx = <p className="project-soon">N/A</p>;
+  if (props.project.status === "demo") {
+    visitJsx = (
+      <button type="button" className="project-link project-demo">
+        Demo
+      </button>
+    );
+  } else {
+    if (props.project.live === "Soon") {
+      visitJsx = <p className="project-soon">Soon</p>;
+    } else if (props.project.live === null) {
+      visitJsx = <p className="project-soon">N/A</p>;
+    }
   }
 
   return (
