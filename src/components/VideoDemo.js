@@ -8,6 +8,7 @@ const VideoDemo = (props) => {
         width="750"
         height="500"
         controls
+        autoPlay
       />
     </div>
   );
