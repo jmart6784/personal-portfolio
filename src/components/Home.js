@@ -246,6 +246,7 @@ const Home = () => {
             <p className="flip-p">
               <span className="word">well_rounded</span>
               <span className="word">a_full_stack_developer</span>
+              <span className="word">a_support_engineer</span>
               <span className="word">an_active_learner</span>
               <span className="word">a_problem_solver</span>
               <span className="word">passionate</span>
